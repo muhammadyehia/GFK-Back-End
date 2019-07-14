@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3D9C58C0-5C1E-411D-A897-B78570A1D50B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C6A65E5B-ADC5-4BE2-A2ED-7A4FF1567D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3B0CA138-B4DB-498A-8E0C-F4150CBEE2FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GfKTask.Core", "GfKTask.Core\GfKTask.Core.csproj", "{75890FB2-7CDA-41C7-BC5A-871A6A18E80E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GfKTask.Infrastructure", "GfKTask.Infrastructure\GfKTask.Infrastructure.csproj", "{8671E004-9B4C-4C93-96B3-34CF9603A807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GfKTask.Application", "GfKTask.Application\GfKTask.Application.csproj", "{94A0BD73-E558-44F8-887F-BE84FFBD1047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GfKTask.Core.Test", "GfKTask.Core.Test\GfKTask.Core.Test.csproj", "{4F951344-3633-41E5-9FBC-4297C166DB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75890FB2-7CDA-41C7-BC5A-871A6A18E80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75890FB2-7CDA-41C7-BC5A-871A6A18E80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75890FB2-7CDA-41C7-BC5A-871A6A18E80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75890FB2-7CDA-41C7-BC5A-871A6A18E80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8671E004-9B4C-4C93-96B3-34CF9603A807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8671E004-9B4C-4C93-96B3-34CF9603A807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8671E004-9B4C-4C93-96B3-34CF9603A807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8671E004-9B4C-4C93-96B3-34CF9603A807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A0BD73-E558-44F8-887F-BE84FFBD1047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A0BD73-E558-44F8-887F-BE84FFBD1047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A0BD73-E558-44F8-887F-BE84FFBD1047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A0BD73-E558-44F8-887F-BE84FFBD1047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F951344-3633-41E5-9FBC-4297C166DB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F951344-3633-41E5-9FBC-4297C166DB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F951344-3633-41E5-9FBC-4297C166DB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F951344-3633-41E5-9FBC-4297C166DB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75890FB2-7CDA-41C7-BC5A-871A6A18E80E} = {C6A65E5B-ADC5-4BE2-A2ED-7A4FF1567D99}
+		{8671E004-9B4C-4C93-96B3-34CF9603A807} = {3B0CA138-B4DB-498A-8E0C-F4150CBEE2FA}
+		{94A0BD73-E558-44F8-887F-BE84FFBD1047} = {3D9C58C0-5C1E-411D-A897-B78570A1D50B}
+		{4F951344-3633-41E5-9FBC-4297C166DB4D} = {C6A65E5B-ADC5-4BE2-A2ED-7A4FF1567D99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1A762FE-37F1-4302-A8C6-65C5B9206EA9}
+	EndGlobalSection
+EndGlobal
